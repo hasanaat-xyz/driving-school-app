@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:5000/api";
+const API = "https://YOUR-FULL-BACKEND-URL.onrender.com/api";
 
 export default function App() {
   const [token, setToken] = useState(
